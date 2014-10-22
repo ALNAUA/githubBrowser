@@ -15,7 +15,7 @@
   <h1><?php echo $data['h1']; ?></h1>
  </div>
  <div class="col-sm-3 search-form-margin">
-  <form class="form-inline text-nowrap" role="form" action="/search" method="GET">
+  <form class="form-inline text-nowrap" role="form" action="<?php echo DIR;?>search" method="GET">
    <div class="form-group">
     <div class="input-group">
       <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
