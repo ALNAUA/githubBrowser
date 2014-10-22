@@ -41,7 +41,7 @@ class Config {
   //set prefix for sessions
   define('SESSION_PREFIX', 'smvc_');
 
-  //optionall create a constant for the name of the site
+  //optional create a constant for the name of the site
   define('SITETITLE', ' | GitHub Browser by Oleksandr Naumov');
   define('H1STATIC', 'GitHub Browser >> %s');
 
